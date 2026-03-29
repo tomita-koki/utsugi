@@ -415,6 +415,7 @@ body {
 
 .sp-hamburger-btn.is-active span:nth-child(2) {
   opacity: 0;
+  transform: translateX(3px);
 }
 
 .sp-hamburger-btn.is-active span:nth-child(3) {
