@@ -244,13 +244,8 @@ img.fadeUp-active {
   }
 }
 .l-content {
-  margin: 0 !important;
+  margin: 0 auto !important;
   padding-top: 0 !important;
-}
-@media screen and (max-width: 767px) {
-  .l-content {
-    margin: 0 auto !important;
-  }
 }
 
 .l-container {
@@ -307,12 +302,7 @@ body {
 
 .container {
   max-width: 1080px;
-  margin: 132px 20px 0 225px;
-}
-@media screen and (max-width: 1100px) {
-  .container {
-    margin: 132px 20px 0 100px;
-  }
+  margin: 132px auto 0;
 }
 @media screen and (max-width: 767px) {
   .container {
@@ -349,13 +339,12 @@ body {
 
 .container__inner {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   gap: 60px;
   margin-bottom: 8px;
 }
 @media screen and (max-width: 767px) {
   .container__inner {
-    justify-content: center;
     display: block;
   }
 }
