@@ -128,12 +128,14 @@ body {
 
 .container__inner {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 60px;
   margin-bottom: 8px;
+  padding: 0 20px;
   
   @media screen and (max-width: 767px) {
     display: block;
+    padding: 0;
   }
 }
 
@@ -259,7 +261,7 @@ body {
 
 .container__subItemLink {
   color: #2B2B2B;
-  font-size: 12px;
+  font-size: 14px;
   letter-spacing: 0.1em;
   position: relative;
   display: inline-block;
